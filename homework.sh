@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 HOME_DIR="/home/$(whoami)"
 
 rm -rf homework14
@@ -20,3 +22,5 @@ cp -r homework14 "$DESKTOP_DIR"
 rm -rf homework14
 
 echo 'gg'
+
+set +x
