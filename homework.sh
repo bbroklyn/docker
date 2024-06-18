@@ -17,4 +17,6 @@ fi
 
 cp -r homework14 "$DESKTOP_DIR"
 
+rm -rf homework14
+
 echo 'gg'
